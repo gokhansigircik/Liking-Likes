@@ -1,0 +1,65 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.likebox {
+  height: 200px;
+  width: 400px;
+  border: 3px solid black;
+  margin: 40px auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.topbox {
+  height: 48%;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.topleft {
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid red; */
+  text-align: center;
+}
+.topright {
+  height: 100%;
+  width: 50%;
+  /* border: 2px solid royalblue; */
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+h2 {
+  color: rgb(39, 36, 36);
+  margin: 35px auto;
+}
+
+p {
+  color: black;
+  margin: 30px auto;
+  font-size: 1.3em;
+}
+.liketopbtn {
+  height: 30px;
+  width: 70px;
+  color: black;
+  background-color: #f2cb4e;
+  margin-right: 10px;
+  box-shadow: 3px 3px black;
+  border: black solid 2px;
+}
+
+.bottombox {
+  height: 48%;
+  width: 100%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-between;
+}
